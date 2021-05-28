@@ -91,6 +91,7 @@ img {
 }
 
 /* Nav */
+
 .navbar {
   background-color: #f1f5f8;
   z-index: 2;
@@ -215,6 +216,7 @@ img {
   grid-template-columns: 1fr;
   align-items: center;
   z-index: 1;
+  padding: 2rem 0 2rem 0;
 }
 .hero-info {
   text-align: center;
@@ -334,7 +336,7 @@ img {
   align-items: center;
   justify-content: center;
   font-weight: 500;
-  font-size: 5rem;
+  font-size: 2rem;
   text-transform: capitalize;
 }
 .title span {
@@ -344,13 +346,25 @@ img {
   font-weight: 700;
 }
 .slider-skill {
-  font-size: 2rem;
-  margin-top: 2.75rem;
+  font-size: 1rem;
+  margin-top: 3.5rem;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 920px) {
+  .slider-skill {
+    font-size: 2rem;
+    margin-top: 3rem;
+  }
+  .title h2 {
+    font-size: 3rem;
+  }
+}
+@media screen and (min-width: 1080px) {
   .slider-skill {
     font-size: 3rem;
     margin-top: 2rem;
+  }
+  .title h2 {
+    font-size: 5rem;
   }
 }
 .section {

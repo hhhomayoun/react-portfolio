@@ -1,7 +1,8 @@
 import React, { useRef, useEffect, useState } from 'react'
 import { useGlobalContext } from './context'
-import { FaBars, FaLinkedin, FaGithub } from 'react-icons/fa'
+import { FaBars } from 'react-icons/fa'
 import { Link } from 'react-scroll'
+import Logo from './images/logo1.png'
 const Navbar = () => {
   const { toggleLinks, showLinks } = useGlobalContext()
   const [scrolled, setScrolled] = useState(false)
@@ -31,6 +32,7 @@ const Navbar = () => {
     <nav className='navbar'>
       <div className='nav-center'>
         <div className='nav-header'>
+          {/* <img src={Logo} className='logo' alt='' /> */}
           <h2>Homayoun Ostad</h2>
           <button className='nav-toggle' onClick={toggleLinks}>
             <FaBars />

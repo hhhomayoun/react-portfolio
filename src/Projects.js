@@ -4,7 +4,7 @@ import SingleProject from './singleProject'
 
 const Projects = () => {
   const [project, setProject] = React.useState(projects)
-  console.log(project)
+
   return (
     <div className='projects-section' id='projects'>
       <h1>my projects</h1>
