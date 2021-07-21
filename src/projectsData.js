@@ -14,7 +14,7 @@ export const projects = [
     code: 'https://github.com/hhhomayoun/search-github-users-react',
     name: 'Search Github Users',
     description:
-      'This application is created to search and display github users and their info by using graphic charts for better demonstration purposes. This project is made with react advanced hooks. The user can search for github users and find info about their repositories and more.',
+      'This application is made with React and it is created to search and display github users and their info by using graphic charts for better demonstration purposes. The user can search for github users and find info about their repositories and more.',
     img: 'https://res.cloudinary.com/dtjimrjmn/image/upload/v1626891660/github-users-react_sdbydf.png',
   },
   {
