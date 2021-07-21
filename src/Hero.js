@@ -1,5 +1,5 @@
 import React from 'react'
-import image from './images/IMG_2691.JPG'
+
 // import { Link } from 'react-scroll'
 // import Resume from './resume'
 // import { Link } from 'react-router-dom'
@@ -9,7 +9,10 @@ const Hero = () => {
     <section className='hero' id='home'>
       <div className='hero-center'>
         <section className='hero-info'>
-          <img src={image} alt='' />
+          <img
+            src='https://res.cloudinary.com/dtjimrjmn/image/upload/v1622311651/image_72192707_rv59r4.jpg'
+            alt=''
+          />
           <h1>Homayoun Ostad</h1>
           <h4>Front End Developer</h4>
           {/* <div className='hero-btns'>

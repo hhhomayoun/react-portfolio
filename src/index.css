@@ -232,7 +232,7 @@ img {
   color: rgba(31, 30, 30, 0.835);
 }
 .hero-info img {
-  max-width: 250px;
+  max-width: 300px;
   border-radius: 50%;
   border: #222 0.5rem solid;
   margin-bottom: 1rem;
@@ -300,7 +300,8 @@ img {
     color: rgba(31, 30, 30, 0.835);
   }
   .hero-info img {
-    max-width: 400px;
+    max-width: 500px;
+    max-height: 600px;
     border-radius: 50%;
     border: #222 0.5rem solid;
     margin-bottom: 1rem;
@@ -346,7 +347,7 @@ img {
   font-weight: 700;
 }
 .slider-skill {
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin-top: 3.5rem;
 }
 @media screen and (min-width: 920px) {
@@ -460,7 +461,9 @@ article.nextSlide {
   margin-bottom: 2rem;
 }
 .single-project-container {
-  height: 8rem;
+  height: 10rem;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
 }
 .single-project-container h3 {
   padding-top: 0.5rem;

@@ -2,7 +2,7 @@ import React, { useRef, useEffect, useState } from 'react'
 import { useGlobalContext } from './context'
 import { FaBars } from 'react-icons/fa'
 import { Link } from 'react-scroll'
-import Logo from './images/logo1.png'
+
 const Navbar = () => {
   const { toggleLinks, showLinks } = useGlobalContext()
   const [scrolled, setScrolled] = useState(false)
