@@ -11,7 +11,7 @@ export default function singleProject({ name, img, description, url, code }) {
       </div>
       <div className='single-project-footer'>
         <a href={url} className='single-project-btn'>
-          go to peroject
+          go to project
         </a>
         <a href={code} className='single-project-btn'>
           see source code
